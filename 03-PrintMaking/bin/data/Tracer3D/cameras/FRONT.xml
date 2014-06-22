@@ -1,0 +1,14 @@
+<camera>
+    <distance>666.932434082</distance>
+    <position>
+        <x>-140.115158081</x>
+        <y>-56.484176636</y>
+        <z>649.596923828</z>
+    </position>
+    <orientation>
+        <x>0.053699881</x>
+        <y>-0.089770101</y>
+        <z>-0.522560060</z>
+        <w>0.846159577</w>
+    </orientation>
+</camera>

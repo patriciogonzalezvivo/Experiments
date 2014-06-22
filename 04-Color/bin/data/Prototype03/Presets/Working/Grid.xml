@@ -1,0 +1,87 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>Grid</Name>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>1.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>28</Kind>
+    <Name>Lines_Color</Name>
+    <XValue>0.709999979</XValue>
+    <YValue>0.000000000</YValue>
+    <RColor>234</RColor>
+    <GColor>239</GColor>
+    <BColor>248</BColor>
+    <AColor>255</AColor>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Lines_Alpha</Name>
+    <Value>0.660098493</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>SubLine_Alpha</Name>
+    <Value>0.295566499</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Cross_Resolution</Name>
+    <Value>1.098999977</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Cross_Size</Name>
+    <Value>0.251231521</Value>
+</Widget>
+<Widget>
+    <Kind>28</Kind>
+    <Name>Cross_Color</Name>
+    <XValue>0.259999990</XValue>
+    <YValue>0.000000000</YValue>
+    <RColor>254</RColor>
+    <GColor>252</GColor>
+    <BColor>239</BColor>
+    <AColor>255</AColor>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Cross_Alpha</Name>
+    <Value>0.295566499</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Reference_Margin</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Reference_Min</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Col_Reference</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Row_Reference</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>28</Kind>
+    <Name>Reference_Color</Name>
+    <XValue>0.829999983</XValue>
+    <YValue>0.000000000</YValue>
+    <RColor>234</RColor>
+    <GColor>234</GColor>
+    <BColor>246</BColor>
+    <AColor>255</AColor>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Reference_Color_Alpha</Name>
+    <Value>1.000000000</Value>
+</Widget>

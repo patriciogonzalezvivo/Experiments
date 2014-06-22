@@ -1,0 +1,32 @@
+<positions>
+    <element name="Alpha">
+        <x>0.000000000</x>
+        <y>91.000000000</y>
+        <width>1024.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Alpha_0">
+        <x>0.000000000</x>
+        <y>137.000000000</y>
+        <width>1024.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="Alpha_1">
+        <x>0.000000000</x>
+        <y>183.000000000</y>
+        <width>1024.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="ENABLE_0">
+        <x>4.000000000</x>
+        <y>986.000000000</y>
+        <width>1672.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="ENABLE_2">
+        <x>0.000000000</x>
+        <y>45.000000000</y>
+        <width>1024.000000000</width>
+        <height>40.000000000</height>
+    </element>
+</positions>

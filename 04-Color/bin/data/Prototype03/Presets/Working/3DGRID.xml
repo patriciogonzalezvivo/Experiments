@@ -1,0 +1,92 @@
+<Canvas>
+    <Kind>40</Kind>
+    <Name>3DGRID</Name>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>329.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridLineWidth</Name>
+    <Value>0.500000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>majorGridLineWidth</Name>
+    <Value>1.201966166</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridScale</Name>
+    <Value>20.019704819</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridMajorScale</Name>
+    <Value>10.103447914</Value>
+</Widget>
+<Widget>
+    <Kind>28</Kind>
+    <Name>gridColor</Name>
+    <XValue>0.605000019</XValue>
+    <YValue>0.546875000</YValue>
+    <RColor>0</RColor>
+    <GColor>186</GColor>
+    <BColor>205</BColor>
+    <AColor>255</AColor>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridAlpha</Name>
+    <Value>22.610836029</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridBrightness</Name>
+    <Value>0.709359586</Value>
+</Widget>
+<Widget>
+    <Kind>28</Kind>
+    <Name>gridMajorColor</Name>
+    <XValue>0.644999981</XValue>
+    <YValue>0.085937500</YValue>
+    <RColor>191</RColor>
+    <GColor>237</GColor>
+    <BColor>250</BColor>
+    <AColor>255</AColor>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridMajorAlpha</Name>
+    <Value>62.807884216</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridMajorBrightness</Name>
+    <Value>1.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridAlphaScale</Name>
+    <Value>1.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>fogFalloffDistance</Name>
+    <Value>1282.756347656</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>fogFalloffExpo</Name>
+    <Value>8.425611496</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>fogFalloffScale</Name>
+    <Value>1.172413111</Value>
+</Widget>

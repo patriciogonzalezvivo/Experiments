@@ -1,0 +1,7 @@
+<Controls>
+	<position_amount>0.05</position_amount>
+	<rotation_amount>0.05</rotation_amount>
+	<camera_amount>0.05</camera_amount>
+	<wakeUpDist>500</wakeUpDist>
+<Controls/>
+</Controls>

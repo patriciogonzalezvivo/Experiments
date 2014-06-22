@@ -1,0 +1,23 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>SystemSettings</Name>
+    <IsMinified>0</IsMinified>
+    <XPosition>626.000000000</XPosition>
+    <YPosition>96.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>DEBUG</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>11</Kind>
+    <Name>srcHeader</Name>
+    <XValue>0.000000000</XValue>
+    <YValue>0.000000000</YValue>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>GrainSize</Name>
+    <Value>0.005000000</Value>
+</Widget>

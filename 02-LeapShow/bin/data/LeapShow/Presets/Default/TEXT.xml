@@ -1,0 +1,167 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>TEXT</Name>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>417.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>font_size</Name>
+    <Value>22.719211578</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>font_scale</Name>
+    <Value>1.004926085</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeue.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-Cn.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-HvCn.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-Lt.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-LtCn.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-LtEx.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-LtIt.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-Md.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-Roman.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-Th.ttf</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-ThCn.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-ThEx.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-UltLt.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-UltLtCn.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueLTCom-UltLtEx.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>HelveticaNeueThn.ttf</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>28</Kind>
+    <Name>font_color</Name>
+    <XValue>0.000000000</XValue>
+    <YValue>0.000000000</YValue>
+    <RColor>249</RColor>
+    <GColor>234</GColor>
+    <BColor>234</BColor>
+    <AColor>255</AColor>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>font_alpha</Name>
+    <Value>1.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>LEFT</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>RIGHT</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>JUSTIFIED</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>CENTER</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>TOP</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>BOTTOM</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>MIDDLE</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>ARC</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>BLOCK</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>arc_angle</Name>
+    <Value>0.294040918</Value>
+</Widget>

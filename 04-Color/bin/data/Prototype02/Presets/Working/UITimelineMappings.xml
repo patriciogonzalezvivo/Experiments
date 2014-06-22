@@ -1,0 +1,23 @@
+<Map>
+    <Bangs></Bangs>
+    <Switches>
+        <Mapping>
+            <Widget>
+                <WidgetName>ENABLE</WidgetName>
+                <WidgetID>2</WidgetID>
+                <WidgetCanvasParent>spectrum</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+        <Mapping>
+            <Widget>
+                <WidgetName>ENABLE</WidgetName>
+                <WidgetID>2</WidgetID>
+                <WidgetCanvasParent>pinterest</WidgetCanvasParent>
+            </Widget>
+            <Track></Track>
+        </Mapping>
+    </Switches>
+    <SliderCurves></SliderCurves>
+    <NumberDialerCurves></NumberDialerCurves>
+</Map>

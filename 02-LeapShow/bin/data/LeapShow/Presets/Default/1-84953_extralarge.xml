@@ -1,0 +1,22 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>1-84953_extralarge</Name>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>556.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Angle</Name>
+    <Value>-2.225983143</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Radio</Name>
+    <Value>0.958465457</Value>
+</Widget>

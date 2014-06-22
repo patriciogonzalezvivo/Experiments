@@ -1,0 +1,32 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>xcode</Name>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>767.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>HUE</Name>
+    <Value>0.098522164</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Timer</Name>
+    <Value>3.016212225</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Angle</Name>
+    <Value>-1.413027644</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Radio</Name>
+    <Value>0.307264388</Value>
+</Widget>

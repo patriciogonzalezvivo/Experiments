@@ -1,0 +1,37 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>SHELL</Name>
+    <IsMinified>1</IsMinified>
+    <XPosition>1.000000000</XPosition>
+    <YPosition>353.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Buffer</Name>
+    <Value>97.783248901</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Noise</Name>
+    <Value>0.492610812</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Radio</Name>
+    <Value>12.315271378</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Rotation</Name>
+    <Value>9.778325081</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>Translation</Name>
+    <Value>0.586206913</Value>
+</Widget>

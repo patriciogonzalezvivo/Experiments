@@ -1,0 +1,72 @@
+<Canvas>
+    <Kind>42</Kind>
+    <Name>DIR LIGHT</Name>
+    <IsMinified>0</IsMinified>
+    <XPosition>1225.000000000</XPosition>
+    <YPosition>560.000000000</YPosition>
+</Canvas>
+<Widget>
+    <Kind>2</Kind>
+    <Name>ENABLE</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>OX</Name>
+    <Value>-49.947647095</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>OY</Name>
+    <Value>-2.826995850</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>OZ</Name>
+    <Value>-23.560440063</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>aHUE</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>aSAT</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>aBRI</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>dHUE</Name>
+    <Value>0.659685850</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>dSAT</Name>
+    <Value>0.324607342</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>dBRI</Name>
+    <Value>0.361256540</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>sHUE</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>sSAT</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>sBRI</Name>
+    <Value>0.000000000</Value>
+</Widget>

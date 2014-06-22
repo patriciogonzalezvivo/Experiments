@@ -1,0 +1,28 @@
+<NAVIGATOR>
+    <x>1284.000000000</x>
+    <y>93.000000000</y>
+    <width>363.000000000</width>
+    <height>125.000000000</height>
+</NAVIGATOR>
+<TEXT>
+    <x>1303.000000000</x>
+    <y>21.000000000</y>
+    <width>321.000000000</width>
+    <height>36.000000000</height>
+    <shapeType>0</shapeType>
+    <font>
+        <name>HelveticaNeueThn.ttf</name>
+        <size>22.000000000</size>
+        <scale>1.004926085</scale>
+        <dir>../../../data/Prototype02/fonts/</dir>
+    </font>
+    <align>
+        <ver>2</ver>
+        <hor>3</hor>
+    </align>
+    <text>23:26</text>
+    <arc>
+        <angle>0.000000000</angle>
+        <radius>396.551727295</radius>
+    </arc>
+</TEXT>

@@ -3,17 +3,12 @@
     <Name>SHELL</Name>
     <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>404.000000000</YPosition>
+    <YPosition>379.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>ENABLE</Name>
     <Value>1</Value>
-</Widget>
-<Widget>
-    <Kind>4</Kind>
-    <Name>Buffer</Name>
-    <Value>83.152709961</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -23,10 +18,10 @@
 <Widget>
     <Kind>4</Kind>
     <Name>Rotation</Name>
-    <Value>9.290639877</Value>
+    <Value>11.241379738</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>Translation</Name>
-    <Value>0.605911314</Value>
+    <Value>0.650246322</Value>
 </Widget>

@@ -13,17 +13,17 @@
 <Widget>
     <Kind>25</Kind>
     <Name>POSX</Name>
-    <Value>0.000000000</Value>
+    <Value>-491.828857422</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>POSY</Name>
-    <Value>0.000000000</Value>
+    <Value>167.639251709</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
     <Name>POSZ</Name>
-    <Value>0.000000000</Value>
+    <Value>-144.196456909</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
@@ -48,7 +48,7 @@
 <Widget>
     <Kind>25</Kind>
     <Name>dSAT</Name>
-    <Value>0.450261772</Value>
+    <Value>0.115183249</Value>
 </Widget>
 <Widget>
     <Kind>25</Kind>
@@ -68,5 +68,5 @@
 <Widget>
     <Kind>25</Kind>
     <Name>sBRI</Name>
-    <Value>0.000000000</Value>
+    <Value>0.057591625</Value>
 </Widget>

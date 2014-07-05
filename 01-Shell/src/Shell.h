@@ -7,8 +7,14 @@
 
 #pragma once
 
-#include "UI3DGrid.h"
 #include "ofxPro.h"
+
+#include "UI3DGrid.h"
+#include "UIMapBackground.h"
+
+#include "UIMatCap.h"
+#include "UIBumpMap.h"
+#include "UIHatching.h"
 
 #include "UIShell.h"
 #include "UIBufferIn.h"
@@ -38,9 +44,14 @@ public:
     void audioReceived 	(float * input, int bufferSize, int nChannels);
     
 protected:
-    UI3DGrid grid;
-    UIShell shell;
-    UIBufferIn audioIn;
+    UI3DGrid    grid;
+    
+    UIMatCap    matcap;
+    UIBumpMap   bumpmap;
+    UIHatching  hatching;
+    
+    UIShell     shell;
+    UIBufferIn  audioIn;
     
     fft                 myFft;
     FFTOctaveAnalyzer   FFTanalyzer;

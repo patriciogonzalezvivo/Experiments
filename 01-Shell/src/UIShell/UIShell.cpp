@@ -16,7 +16,7 @@ UIShell::UIShell(){
 }
 
 void UIShell::setupUI(){
-    gui->addSlider("Buffer", 10, 1000, &buffer);
+//    gui->addSlider("Buffer", 10, 1000, &buffer);
     gui->addSlider("Radio", 0.0, 100, &radio);
     gui->addSlider("Rotation", 1.0, 100.0, &rotation);
     gui->addSlider("Translation", 0.0, 1.0, &translation);
@@ -61,7 +61,56 @@ void UIShell::update(){
             }
         }
         
-        createSkin(lineWidth);
+        //  Create Skin
+        //
+        if (points.size()>=lineWidth && lineWidth > 0){
+            int width = lineWidth;
+            int height = points.size() / width;
+            
+            mesh.clear();
+            for(int y = 0; y < height - 1; y ++) {
+                for(int x = 0; x < width - 1; x ++) {
+                    
+                    ofVec3f nw = points[ x + y * width];
+                    ofVec2f nwT = ofVec2f( (float)(y)/(float)(height), (float)(x)/(float)(width) );
+                    
+                    ofVec3f ne = points[ (x+1) + y * width];
+                    ofVec2f neT = ofVec2f( (float)(y)/(float)(height), (float)(x+1)/(float)(width) );
+                    
+                    ofVec3f sw = points[ x + (y+1) * width];
+                    ofVec2f swT = ofVec2f( (float)(y+1)/(float)(height), (float)(x)/(float)(width) );
+                    
+                    ofVec3f se = points[ (x+1) + (y+1) * width];
+                    ofVec2f seT = ofVec2f( (float)(y+1)/(float)(height), (float)(x+1)/(float)(width) );
+                    
+                    ofVec3f normal = ((ne - nw).cross(se - nw)).normalize();
+                    mesh.addNormal(normal);
+                    mesh.addVertex(nw);
+                    mesh.addTexCoord(nwT);
+                    
+                    mesh.addNormal(normal);
+                    mesh.addVertex(ne);
+                    mesh.addTexCoord(neT);
+                    
+                    mesh.addNormal(normal);
+                    mesh.addVertex(se);
+                    mesh.addTexCoord(seT);
+                    
+                    normal = ((se - nw).cross(sw - nw)).normalize();
+                    mesh.addNormal(normal);
+                    mesh.addVertex(nw);
+                    mesh.addTexCoord(nwT);
+                    
+                    mesh.addNormal(normal);
+                    mesh.addVertex(se);
+                    mesh.addTexCoord(seT);
+                    
+                    mesh.addNormal(normal);
+                    mesh.addVertex(sw);
+                    mesh.addTexCoord(swT);
+                }
+            }
+        }
     }
 }
 
@@ -119,34 +168,16 @@ void UIShell::addFace(ofMesh& mesh, ofVec3f a, ofVec3f b, ofVec3f c) {
 	ofVec3f normal = ((b - a).cross(c - a)).normalize();
 	mesh.addNormal(normal);
 	mesh.addVertex(a);
-	mesh.addNormal(normal);
+	
+    mesh.addNormal(normal);
 	mesh.addVertex(b);
+    
 	mesh.addNormal(normal);
 	mesh.addVertex(c);
 }
 
 void UIShell::addFace(ofMesh& mesh, ofVec3f a, ofVec3f b, ofVec3f c, ofVec3f d) {
 	addFace(mesh, a, b, c);
-	addFace(mesh, a, c, d);
-}
-
-void UIShell::createSkin(int _width){
     
-    if (points.size()>=_width && _width > 0){
-        int width = _width;
-        int height = points.size() / width;
-        
-        mesh.clear();
-        for(int y = 0; y < height - 1; y ++) {
-            for(int x = 0; x < width - 1; x ++) {
-                
-                ofVec3f nw = points[ x + y * width];
-                ofVec3f ne = points[ (x+1) + y * width];
-                ofVec3f sw = points[ x + (y+1) * width];
-                ofVec3f se = points[ (x+1) + (y+1) * width];
-                
-                addFace(mesh, nw, ne, se, sw);
-            }
-        }
-    }
+	addFace(mesh, a, c, d);
 }

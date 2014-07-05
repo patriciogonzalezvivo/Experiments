@@ -25,6 +25,10 @@ void Shell::selfSetup(){
 	FFTanalyzer.peakDecayRate       = 0.95f;    // decay slower
 	FFTanalyzer.linearEQIntercept   = 0.9f;     // reduced gain at lowest frequency
 	FFTanalyzer.linearEQSlope       = 0.01f;    // increasing gain at higher frequencies
+    
+    
+    hatching.load(getDataPath()+"shaders/hatching");
+    matcap.load(getDataPath()+"shaders/matcap");
 }
 
 void Shell::selfSetupGuis(){
@@ -32,8 +36,13 @@ void Shell::selfSetupGuis(){
     lightAdd("SPOT LIGHT", OF_LIGHT_SPOT);
     backgroundSet(new UIMapBackground() );
     
-    guiAdd(grid);
     guiAdd(shell);
+    guiAdd(matcap);
+    guiAdd(bumpmap);
+    guiAdd(hatching);
+    
+    guiAdd(grid);
+    
     guiAdd(audioIn);
 }
 
@@ -61,14 +70,27 @@ void Shell::selfUpdate(){
 }
 
 void Shell::selfDraw(){
-    materials["MATERIAL 1"]->begin();
     
+    
+    ofPushMatrix();
     ofPushStyle();
+    ofRotateX(90);
     grid.draw();
     ofPopStyle();
+    ofPopMatrix();
     
     ofSetColor(255);
+    materials["MATERIAL 1"]->begin();
+    
+    matcap.begin();
+    bumpmap.begin();
+    hatching.begin();
+    
     shell.draw();
+    
+    hatching.end();
+    bumpmap.end();
+    matcap.end();
     
     materials["MATERIAL 1"]->end();
 }

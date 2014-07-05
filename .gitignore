@@ -62,3 +62,6 @@ Desktop.ini
  
 # Miscellaneous
 .mailmap
+
+/01-Shell/bin/data/Shell/videos/
+/01-Shell/bin/data/Shell/snapshots/

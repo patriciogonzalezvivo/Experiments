@@ -3,12 +3,17 @@
     <Name>3DGRID</Name>
     <IsMinified>1</IsMinified>
     <XPosition>1.000000000</XPosition>
-    <YPosition>379.000000000</YPosition>
+    <YPosition>479.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
     <Name>ENABLE</Name>
-    <Value>1</Value>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>gridScale</Name>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -17,13 +22,23 @@
 </Widget>
 <Widget>
     <Kind>4</Kind>
-    <Name>majorGridLineWidth</Name>
-    <Value>2.137931108</Value>
+    <Name>gridAlpha</Name>
+    <Value>0.113300495</Value>
 </Widget>
 <Widget>
-    <Kind>4</Kind>
-    <Name>gridScale</Name>
-    <Value>9.778325081</Value>
+    <Kind>25</Kind>
+    <Name>gHUE</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>gSAT</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>gBRI</Name>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -31,44 +46,29 @@
     <Value>10.000000000</Value>
 </Widget>
 <Widget>
-    <Kind>28</Kind>
-    <Name>gridColor</Name>
-    <XValue>0.615000010</XValue>
-    <YValue>0.101562500</YValue>
-    <RColor>183</RColor>
-    <GColor>242</GColor>
-    <BColor>248</BColor>
-    <AColor>255</AColor>
-</Widget>
-<Widget>
     <Kind>4</Kind>
-    <Name>gridAlpha</Name>
-    <Value>50.246303558</Value>
-</Widget>
-<Widget>
-    <Kind>4</Kind>
-    <Name>gridBrightness</Name>
-    <Value>0.724137902</Value>
-</Widget>
-<Widget>
-    <Kind>28</Kind>
-    <Name>gridMajorColor</Name>
-    <XValue>0.689999998</XValue>
-    <YValue>0.070312500</YValue>
-    <RColor>198</RColor>
-    <GColor>228</GColor>
-    <BColor>252</BColor>
-    <AColor>255</AColor>
+    <Name>majorGridLineWidth</Name>
+    <Value>0.500000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>gridMajorAlpha</Name>
-    <Value>135.665023804</Value>
+    <Value>0.315270931</Value>
 </Widget>
 <Widget>
-    <Kind>4</Kind>
-    <Name>gridMajorBrightness</Name>
-    <Value>0.753694594</Value>
+    <Kind>25</Kind>
+    <Name>gHUE</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>gSAT</Name>
+    <Value>0.000000000</Value>
+</Widget>
+<Widget>
+    <Kind>25</Kind>
+    <Name>gBRI</Name>
+    <Value>1.000000000</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
@@ -78,15 +78,15 @@
 <Widget>
     <Kind>4</Kind>
     <Name>fogFalloffDistance</Name>
-    <Value>462.068969727</Value>
+    <Value>413.793090820</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>fogFalloffExpo</Name>
-    <Value>7.175369263</Value>
+    <Value>8.379310608</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>fogFalloffScale</Name>
-    <Value>1.142857075</Value>
+    <Value>1.017241359</Value>
 </Widget>

@@ -1,3 +1,0 @@
-ofxUI
-ofxPro
-ofxXmlSettings
